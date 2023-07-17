@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.footer_main_box {
+ 
+    width: 100%;
+    background-color: #292240;
+    padding: 60px 100px;
+
+}
+
+.footer_main_box ul {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_sec_box {
+
+    width: 100%;
+    padding: 30px 5px;   
+    display: flex;
+    gap: 100px;  
+    background-color: #3c3552;
+
+
+}
+
+.footer_sec_box ul li {
+    color: #ffffff;
+
+}
+.min{
+   border-right: 1px solid grey;
+  
+}
+.ch-icon-main {
+  
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.ch-icon {
+    color: #fff;
+}
+
+.f-li {   
+    margin-bottom: 5px;  
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.third-box {
+    padding: 60px 1px;
+    display: flex;
+}
+
+.abcd_footer {
+    color: #fff;
+    width: 36%;
+
+}
+
+.abcd_footer p { 
+    
+    color: #fff;
+    text-align: justify;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+.abcd_footer h2 {
+    color: grey;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footer_sec .footeractive {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.footer_sec ul {  
+   margin-top: 30px;
+   
+}
+.footer_sec ul li {    
+    margin-left: 40px;
+    text-align: justify;
+    align-items: center;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer_sec ul li:hover {
+    color: crimson;
+    cursor: pointer;
+}
+
+.footer_sec {
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+
+.footer_sec h2 {
+    color: grey;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.f_footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3c3552;
+    padding: 40px 20px;
+}
+
+.f-first {
+    color: grey;
+    width: 40%;
+}
+
+.f-first h4 {
+    color: grey;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.social_three {
+    padding-top: 15px;
+}
+
+.first_div_footer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.first_div_footer p {
+    color: #fff;
+}
+
+.input_footer {
+    width: 100%;
+}
+
+.input_footer input {
+    width: 80%;
+    padding: 18px 15px;
+    border: 1px solid;
+    outline: none;
+    font-size: 16px;
+}
+
+.input_footer .btn-f {
+    width: 20%;
+    padding: 18px 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #cd1f7c;    
+    cursor: pointer;
+}
+
+.abcd_font {
+    margin-left: 10px;
+
+}
+
+.abcd_font:hover {
+    color: #cd1f7c;
+}
+
+.laste_footer {
+
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.scroll_b{
+    position: relative;
+  }
+  .scroll_icon{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+  }
+  .scroll_design{
+    align-items: center;
+    background-color: #cd1f7c;   
+    border-radius: 50%;
+    bottom: 5%;
+    bottom: 3%;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    justify-content: center;
+    position: fixed;
+    right: 2%;
+    transition: .3s ease-in-out;
+    width: 50px;
+    z-index: 9;
+  }
+  .scroll_design:hover{
+    animation: none;
+    background-color: #cd1f7c;  
+   
+  }
+  @keyframes movebtn {
+    0%{
+      transform: translateY(0px);
+    }
+    25%{
+      transform: translateY(20px);
+    }
+    50%{
+      transform: translateY(0px);
+    }
+    75%{
+      transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }

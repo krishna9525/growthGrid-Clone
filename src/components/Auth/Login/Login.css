@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.login_first_div {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden !important;
+    display: flex;
+
+}
+
+.login_img_box {
+    flex: 60%;
+  
+
+}
+
+.login_img_box img {
+    max-width: 100%;
+    height: 100vh;    
+    object-fit: cover;
+}
+
+.login_form {
+    flex: 40%;
+    position: relative;
+}
+
+.login_form_second {
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+  
+
+
+}
+
+.form_logo img {
+    width: 50px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+
+}
+
+.head_to_login {
+    margin-top: 10px;
+
+}
+
+.head_to_login h2 {
+    text-align: center;
+    align-items: center;
+}
+
+.google_login {
+    margin-top: 15px;
+
+
+}
+
+.google_login button {
+    width: 250px;
+    padding: 16px;
+    margin-left: 80px;
+    background-color: #ffffff;
+    border: 1px solid;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.google_login button span:hover {
+    color: crimson;
+}
+
+.login_form_box {   
+    margin-top: 30px;
+    display: flex;
+}
+
+.another_option {
+    margin-top: 20px;  
+    display: flex;
+    align-items: center;
+
+}
+.another_option button {
+    margin-left: 180px;  
+    border-radius: 50%;
+    border: none;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    color: darkgray;
+
+}
+.email {
+    width: 405px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 2px;
+    outline: none;
+    margin: auto;
+    margin-bottom: 0 !important;
+}
+.password {
+    
+    width: 405px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 2px;
+    outline: none;
+}
+.emai_error {
+  font-size: 12px;
+    color: red;
+   
+}
+
+.login_password_forget span {
+    margin-left: 240px;
+    cursor: pointer;
+}
+
+.login_password_forget span:hover {
+    color: darkmagenta;
+}
+
+.login_button_page {
+    margin-top: 15px;
+}
+
+.login_button_page button {
+    width: 250px;
+    padding: 14px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: #001C30;
+    margin-left: 75px;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 4px;
+    transition: 0.25 a;
+}
+
+.login_button_page button:hover {
+    background-color: darkmagenta;
+}
+
+.not_account_signup {
+    margin-top: 10px;
+    
+}
+
+.not_account_signup p {
+    text-align: center;
+    align-items: center;
+
+}
+
+.not_account_signup p span {
+    cursor: pointer;
+    font-weight: 600;
+   letter-spacing: 1.5px;
+}
+
+.not_account_signup p span:hover {
+    color: darkmagenta;
+}

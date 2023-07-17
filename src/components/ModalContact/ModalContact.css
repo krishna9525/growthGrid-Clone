@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.m_head {    
+    width: 100%;
+    padding: 30px 30px 0 30px;
+}
+.new{
+    display: none;
+}
+.f-mod {   
+    border-radius: 10px;
+    width: 100%;  
+    padding: 40px 20px;
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin: auto;
+}
+
+.f-mod label {   
+    font-size: 14px;
+}
+.f-mod .imp {   
+   padding: 15px;
+   width: 100%;
+   outline: none;  
+  
+}
+.f-nd-div{
+    display: flex;  
+    margin-top: 10px;   
+    gap: 3rem;
+   
+}
+.mobile-f{
+   width: 50%;
+   
+}
+.abc{
+    margin-top: 10px;
+}
+.form-padding{
+    width: 100%;
+    padding: 15px 30px;
+}
+.textar{
+    width: 100%;
+    padding: 50px;
+    
+}
+.msg{    
+    margin-top: 10px;
+    
+}
+.btn-m{
+    padding: 30px;   
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+   
+}
+.btn-m .btn-mo{
+   padding: 14px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    
+   
+    
+}
+.bt{
+    background-color:#1c1c1c;
+}
+.bt:hover{
+    background-color: #cd1f7c;
+}
+.but{
+    background-color: #cd1f7c;
+}
+.btn-m .but:hover{
+   
+    background-color: #1c1c1c;
+    
+}

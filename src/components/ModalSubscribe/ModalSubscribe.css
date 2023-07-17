@@ -1,0 +1,90 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.modal_header {
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+.modal_header h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.modal_paragraph p {
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+
+}
+
+.modal_button {
+    padding: 10px 0px;
+
+
+}
+
+.modal_button button {
+    padding: 10px 60px;
+    margin-left: 110px;
+    border: 1px solid grey;
+    outline: none;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+
+.modal_button button:hover {
+    color: darkmagenta;
+}
+
+.modal_or {
+    padding: 10px 0px;
+}
+
+.modal_or span {
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: 230px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    background-color: rgb(244, 232, 232);
+    color: grey;
+
+
+}
+
+.p_tag_modal {    
+    margin-bottom: 20px;
+}
+
+.p_tag_modal p {
+    text-align: center;
+    color: grey;
+    font-size: 16px;
+}
+
+.p_tag_modal p span {
+    color: #000;
+    cursor: pointer;
+
+}
+
+.p_tag_modal p span:hover {
+    color: darkmagenta;
+    cursor: pointer;
+} 

@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup_first_page {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.signup_image_left {
+    flex: 60%;
+
+
+}
+
+.signup_form_right {
+    flex: 40%;
+   
+}
+.signup_image_left img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.second_signup_right {
+    width: 80%;
+    height: 100vh;   
+    margin: auto;
+  
+    
+}
+
+
+.signup_form_right_side img {
+    width: 60px;
+    height: 80px;
+    margin-left: 180px;
+}
+
+.signup_top {
+    margin-top: 8px;
+}
+
+.signup_top h2 {
+    text-align: center;
+}
+.signup_button_page {
+    margin-top: 10px;
+}
+
+.signup_button_page button {
+    width: 240px;
+    padding: 10px;
+    margin-left: 90px;
+    font-size: 16px;
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: 4px;
+
+}
+
+.signup_button_page button span:hover {
+    color: #e511ec;
+}
+
+.signup_or_button {
+    margin-top: 10px;
+
+}
+
+.signup_or_button .orrr {
+    width: 25px;
+    height: 25px;
+    margin-left: 190px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: darkgray;
+    cursor: pointer;
+    outline: none;
+
+
+}
+.f_o_rm{
+   
+    margin-top: 20px;
+}
+
+.signup_fisrts_name{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.signup_fisrts_name .signup_first_name input{
+    padding: 10px;
+    width: 170px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 3px;
+
+}
+.signup_fisrts_name .signup_last_name input{
+    padding: 10px;
+    width: 170px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 3px;
+
+}
+.signup_email{
+    margin-top: 8px;
+   
+
+}
+.signup_email input {
+    margin-left: 17px;
+}
+.signup_email .email_label {
+    margin-left: 17px;
+}
+
+.signup_email input{
+    width: 93%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 3px;
+}
+.signup_button_form{
+    margin-top: 20px;
+    
+}
+.signup_button_form button{
+    padding: 12px;
+    width: 240px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s all;
+    cursor: pointer;
+
+}
+.signup_button_form button:hover{
+    background-color: crimson;
+}
+
+.go_to_login p{
+    margin-top: 5px;
+    text-align: center;
+}
+.go_to_login p span{
+    text-decoration: underline;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.go_to_login p span:hover{
+    color: #e511ec;
+}

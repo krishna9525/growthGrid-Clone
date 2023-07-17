@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sub_navbar {
+    z-index: 999;
+    position: fixed;
+    top: 8rem;
+    width: 100%;
+    padding: 13px;
+    background-color: #F5F5F5;
+}
+
+.logo_subscribe {
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.greate_icons {
+    margin-left: 10px;
+    font-size: 14px;
+    display: inline-flex;
+}
+
+.subs {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* **********************2nd box */
+.tender-list-top {
+    width: 100%;
+    margin-top: 11.14rem;
+}
+
+.tender-main-box {
+    display: flex;
+    gap: 2.5rem;
+
+
+}
+
+.tleft-bix {
+    width: 25%;
+    padding-bottom: 250px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.Tender-documnet {
+    padding-top: 35px;
+    color: grey;
+}
+
+.Tender-documnet h5 {
+    font-size: 18px !important;
+}
+
+.Tender-documnet1 {
+    padding-top: 15px;
+    color: grey;
+}
+
+.Tender-documnet1 h5 {
+    font-size: 18px !important;
+}
+
+.tright-box {
+    width: 75%;
+    background-color: #E9E9E9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+}
+
+.tleft-pdd {
+    padding: 5px 25px;
+}
+
+.firts-head-tender {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px 0px;
+    background-color: #000;
+    text-align: center;
+}
+
+.firts-head-tender h6 {
+    color: #fff;
+}
+
+.lbutton {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.lbutton1 {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.lbutton button {
+    padding: 15px 25px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+
+}
+
+.lbutton1 button {
+    padding: 15px 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #cd1f7c;
+    border-radius: 5px;
+
+}
+
+.lbutton1 button:hover {
+    background-color: #000;
+}
+
+.lbutton button:hover {
+    background-color: #cd1f7c;
+    cursor: pointer;
+}
+
+.firts-headsec-tender {
+    border: 1px solid;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.div_tender-i {
+
+    width: 100%;
+    padding: 25px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.div_tender_s {
+    width: 75%;
+    align-items: center;
+
+
+}
+
+.div_tender_m {
+    width: 30%;
+    align-items: center;
+}
+
+.div_tender_s input {
+    width: 85%;
+    padding: 12px 10px;
+    outline: none;
+    height: 50px;
+}
+
+.div_tender_s button {
+    padding: 12px 20px;
+    outline: none;
+    border: 1px solid #292240;
+    background: #292240;
+    color: #fff;
+    height: 50px;
+}
+
+.div_tender_m select {
+    width: 50%;
+    padding: 12px 10px;
+    outline: none;
+    border: 1px solid;
+}
+
+.div_tender_m .rst-btn {
+    margin-left: 30px;
+    padding: 12px 25px;
+    outline: none;
+    background-color: #292240;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.div_tender_m .rst-btn:hover {
+    background-color: #cd1f7c;
+}
+
+.remaing {
+    width: 100%;     
+   background-color: #ffffff;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.rem-imf{
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 250px;
+}
+
+.remaing img {
+    width: 150px;
+    height: 150px;
+   
+}

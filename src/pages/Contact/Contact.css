@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sub_navbar {
+    z-index: 999;
+    position: fixed;
+    top: 8rem;
+    width: 100%;
+    padding: 13px;
+    background-color: #F5F5F5;
+}
+
+.logo_subscribe {
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.greate_icons {
+    margin-left: 10px;
+    font-size: 14px;
+    display: inline-flex;
+}
+
+.subs {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.contact_box_sec {
+    width: 100%;
+    margin-top: 140px;
+    padding: 70px;
+}
+
+.flex_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.firs_box_contact {
+    width: 50%;
+
+}
+
+.firs_box_contact span {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(33, 30, 30);
+}
+.abd{
+margin-top: 20px;
+}
+.paragraph_a {
+    padding: 5px 0px;
+}
+
+.paragraph_a p {
+    font-size: 18px;
+    color: grey
+}
+
+.second_box_contact {
+    width: 50%;
+
+}
+
+.second_box_contact img {
+    width: 95%;
+
+}
+
+.c_button_fiv .b_contact {
+
+    padding: 15px;
+    width: 200px;
+    border: none;
+    background-color: #292240;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+.c_button_fiv .b_contact:hover {
+    background-color: #cd1f7c;
+    transition: .3s ease-in-out;
+}
+
+.map_div {
+    width: 100%;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    background-color: #f1f1f1;
+
+}
+
+.para_head {
+    text-align: center;
+    padding: 50px 0px;
+
+
+}
+
+.para_head h3 {
+
+    font-weight: 400;
+    font-size: 22px;
+
+}
+
+.para_head p {
+    font-weight: 400;
+    padding: 20px;
+    width: 70%;
+    margin-inline: auto;
+    color: grey;
+
+
+}
+
+.map_box_mai {
+    display: flex;
+
+}
+
+.map_box_mai .map_left_box {
+    margin-left: 20px;
+    width: 38%;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.map_box_mai .map_right_box {
+    width: 56%;
+    margin-left: 23px;
+
+
+}
+
+.map_left_box h1 {
+    padding: 20px 25px;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.map_left_box .paraa {
+    padding: 0px 25px;
+}
+
+.box_span {
+    padding: 0px 25px;
+}
+
+.box_span_email {
+    padding: 0px 25px;
+}
+.box_span_email span {
+    font-size: 18px;
+    font-size: 600;
+}
+.box_span span {
+    font-size: 18px;
+    font-size: 500;
+}
+.input_box_map {
+    border: 1px solid grey;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+    border-radius: 6px;
+    margin-block: 22px;
+}
+.input_box_map img {
+    margin-right: 10px;
+    width: 22px;
+}
+.input_box_map p {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.input_box_map .imgar {
+    align-items: center;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.input_box_map .imgar p {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.input_box_map2 {
+    border: 1px solid grey;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+    border-radius: 6px;
+    margin-block: 22px;
+}
+.input_box_map2 img {
+    margin-right: 10px;
+    /* max-width: 100%; */
+    width: 22px;
+}
+.input_box_map2 p {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.hr {
+    width: 90%;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.hrr {
+    width: 90%;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
