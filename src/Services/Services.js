@@ -8,6 +8,8 @@ const fetchData = async (url) => {
     Type: 'token'
   };
 
+  
+
   try {
     const res = await axios.get(base_Url + url, { headers });
     return res;

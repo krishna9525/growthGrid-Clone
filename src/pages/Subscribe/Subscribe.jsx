@@ -5,19 +5,7 @@ import "./Subscribe.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React from "react";
 import 'react-alice-carousel/lib/alice-carousel.css';
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 
-
-// const settings = {
-//     infinite: true,
-//     speed: 1500,
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     autoplaySpeed: 1000
-// };
 
 
 
@@ -118,7 +106,7 @@ const Subscribe = () => {
                     </div>
 
 
-                    {/* </Slider> */}
+                   
                 </div>
 
             </div>

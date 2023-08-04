@@ -4,13 +4,15 @@ import fetchData from "./Services"
 const Dummy = () => {
 
     const [data, setData] = useState([])
+    let url = "/users"
+    fetchData(url).then((res) => {
+        setData(res.data)
+        console.log(res.data)
+    })
 
     const getData = () => {
-        let url = "/users"
-        fetchData(url).then((res) => {
-            setData(res.data)
-            console.log(res.data)
-        })
+       
+            
     }
 
 
@@ -22,7 +24,7 @@ const Dummy = () => {
 
     return (
         <div>
-           
+
         </div>
     )
 }
